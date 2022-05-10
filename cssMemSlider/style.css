@@ -15,7 +15,7 @@
 }
 
 .slider {
-	background-color: #ddd;
+	background-color: rgb(221, 221, 221);
 	height: inherit;
 	overflow: hidden;
 	position: relative;
@@ -52,9 +52,9 @@
 }
 
 .wrapper .controls {
-	left: 50%;
-	margin-left: -98px;
 	position: absolute;
+   top: 445px;
+   right: 0;
 }
 
 .wrapper label {
@@ -71,7 +71,7 @@
 }
 
 .wrapper label:after {
-	border: 2px solid rgb(0, 0, 0);
+	border: 2px solid rgb(29, 78, 151);
 	content: " ";
 	display: block;
 	height: 12px;
